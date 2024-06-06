@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CDRL Video Result</title>
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px; /* 调整视频之间的间距 */
+        }
+        h1, p {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>
-    Here we present the video results of NED with and without CDRL on the MEAD and RAVDESS datasets.
-    </h1>
-    <p>
-        From left to right, they are <strong>Source || Reference || NED || NED with CDRL</strong>.
-    </p>
-    <p>
-        Please turn on the sound to better assess the synchronization of the mouth shape and the audio.
-    </p>
-
+    <h1>Here we present the video results of NED with and without CDRL on the MEAD and RAVDESS datasets.</h1>
+    <p>From left to right, they are <strong>Source || Reference || NED || NED with CDRL</strong>.</p>
+    <p>Please turn on the sound to better assess the synchronization of the mouth shape and the audio.</p>
 
     <ul>
         <li><a href="#NED-RAVDESS-Cross-ID">NED-RAVDESS Cross-ID</a></li>
@@ -24,180 +27,253 @@
         <li><a href="#NED-MEAD-Inter-ID">NED-MEAD Inter-ID</a></li>
     </ul>
 
-    
     <h2>NED-MEAD Cross-ID</h2>
-    
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Cross-ID/M030_source_happy_040.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
 
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Cross-ID/M030_source_neutral_040.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Cross-ID/W015_source_disgusted_039.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Cross-ID/W029_source_angry_033.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Cross-ID/W015_source_disgusted_038.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-   
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Cross-ID/M012_source_happy_040.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Cross-ID/M012_source_fear_038.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Cross-ID/M003_source_angry_017.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Cross-ID/M009_source_disgusted_030.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Cross-ID/M009_source_surprised_025.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Cross-ID/M030_source_happy_040.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Cross-ID/M030_source_neutral_040.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Cross-ID/W015_source_disgusted_039.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Cross-ID/W029_source_angry_033.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Cross-ID/W015_source_disgusted_038.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Cross-ID/M012_source_happy_040.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Cross-ID/M012_source_fear_038.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Cross-ID/M003_source_angry_017.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Cross-ID/M009_source_disgusted_030.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Cross-ID/M009_source_surprised_025.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
     <h2>NED-MEAD Inter-ID</h2>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Inter-ID/M003_source_angry_017.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Inter-ID/M003_source_sad_025.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Inter-ID/M009_source_disgusted_025.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Inter-ID/M009_source_happy_030.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Inter-ID/M012_source_surprised_030.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Inter-ID/M030_source_fear_026.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Inter-ID/M030_source_happy_029.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Inter-ID/W015_source_angry_028.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Inter-ID/W015_source_neutral_040.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED_MEAD/Inter-ID/W029_source_disgusted_033.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Inter-ID/M003_source_angry_017.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Inter-ID/M003_source_sad_025.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Inter-ID/M009_source_disgusted_025.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Inter-ID/M009_source_happy_030.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Inter-ID/M012_source_surprised_030.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Inter-ID/M030_source_fear_026.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Inter-ID/M030_source_happy_029.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Inter-ID/W015_source_angry_028.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Inter-ID/W015_source_neutral_040.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED_MEAD/Inter-ID/W029_source_disgusted_033.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
     <h2>NED-RAVDESS Cross-ID</h2>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Cross-ID/Actor_01_neutral.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Cross-ID/Actor_02_disgusted.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Cross-ID/Actor_02_fear.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Cross-ID/Actor_03_fear.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Cross-ID/Actor_03_happy.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Cross-ID/Actor_04_happy.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Cross-ID/Actor_04_neutral.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Cross-ID/Actor_05_angry.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Cross-ID/Actor_05_happy.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Cross-ID/Actor_06_angry.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Cross-ID/Actor_01_neutral.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Cross-ID/Actor_02_disgusted.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Cross-ID/Actor_02_fear.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Cross-ID/Actor_03_fear.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Cross-ID/Actor_03_happy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Cross-ID/Actor_04_happy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Cross-ID/Actor_04_neutral.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Cross-ID/Actor_05_angry.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Cross-ID/Actor_05_happy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Cross-ID/Actor_06_angry.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
     <h2>NED-RAVDESS Inter-ID</h2>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Inter-ID/Actor_01_angry.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Inter-ID/Actor_01_fear.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Inter-ID/Actor_02_disgusted.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Inter-ID/Actor_02_happy.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Inter-ID/Actor_03_neutral.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Inter-ID/Actor_04_surprised.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Inter-ID/Actor_05_disgusted.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Inter-ID/Actor_05_sad.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Inter-ID/Actor_06_happy.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video width="1024" height="256" controls>
-        <source src="NED-RAVDESS/Inter-ID/Actor_06_surprised.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Inter-ID/Actor_01_angry.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Inter-ID/Actor_01_fear.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Inter-ID/Actor_02_disgusted.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Inter-ID/Actor_02_happy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Inter-ID/Actor_03_neutral.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Inter-ID/Actor_04_surprised.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Inter-ID/Actor_05_disgusted.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Inter-ID/Actor_05_sad.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Inter-ID/Actor_06_happy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-container">
+        <video width="1024" height="256" controls>
+            <source src="NED-RAVDESS/Inter-ID/Actor_06_surprised.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 </body>
 </html>
